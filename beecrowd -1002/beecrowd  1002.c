@@ -1,9 +1,9 @@
- #include<stdio.h>
+#include<stdio.h>
 int main()
 {
-    float b=0,R=0 ,p=3.14159;
-    scanf("%f",&R);
+    double b=0,R=0 ,p=3.14159;
+    scanf("%lf",&R);
     b=p*(R*R);
-    printf("A=%.4f\n",b);
+    printf("A=%.4lf\n",b);
     return 0;
 }
